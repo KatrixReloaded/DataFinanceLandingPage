@@ -9,7 +9,7 @@ const Hero = () => {
             <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Grow with data.</h1>
             <div className='flex justify-center items-center '>
                 <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>Fast, flexible financing for</p>
-                <ReactTyped className='text-gray-500 md:text-5xl sm:text-4xl text-xl font-bold pl-2 md:pl-4' strings={['BTB', 'BTC', 'SaaS']} typeSpeed={120} backSpeed={140} loop/>
+                <ReactTyped className='text-[#00df9a] md:text-5xl sm:text-4xl text-xl font-bold pl-2 md:pl-4' strings={['BTB', 'BTC', 'SaaS']} typeSpeed={120} backSpeed={140} loop/>
             </div>
             <p className='md:text-2xl text-xl font-bold text-gray-500 '>Monitor your data analytics to increase revenue for BTB, BTC & SaaS platforms.</p>
             <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
